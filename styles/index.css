@@ -303,3 +303,8 @@ color: #000000;
 .sectionsecond .img{
     position: static;
 }
+.sectionsecond .brown-container .text button p{
+    color: rgb(255, 255, 255);
+   position: relative;
+   top: -7px;
+}
