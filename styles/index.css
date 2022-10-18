@@ -30,7 +30,7 @@ b {
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
-    
+
 
 }
 
@@ -278,13 +278,16 @@ button {
     line-height: 61px;
     color: #150101;
 }
-.product{
+
+.product {
     position: relative;
 }
-.product-header{
+
+.product-header {
     position: sticky;
     top: 0px;
 }
+
 .product-header ul {
     height: 50px;
     background-color: #fff;
@@ -348,15 +351,237 @@ button {
     font-weight: 500;
     font-size: 20px;
     line-height: 28px;
-    
+
     opacity: 0.6;
 }
-.nameaic{
-width: 152px;
-height: 36px;
-font-family: 'Hind Madurai';
+
+.nameaic {
+    width: 152px;
+    height: 36px;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+}
+
+.feedback {
+    margin-bottom: 150px;
+}
+
+.who {
+    display: flex;
+    height: 60px;
+    margin-bottom: 40px;
+}
+
+.who p {
+    padding-left: 10px;
+    width: 300px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.who p:nth-child(1) {
+    position: relative;
+    top: -15px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    opacity: 1;
+    color: #000000;
+}
+
+.who p:nth-child(2) {
+    position: relative;
+    top: -60px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+
+
+    color: #000000;
+
+    opacity: 0.7;
+}
+
+.what p font {
+    position: relative;
+    top: 20px;
+}
+
+.text .btn {
+    display: flex;
+    padding-top: 70px;
+    align-items: center;
+}
+
+.text .btn button {
+    padding: 0 30px 0 15px;
+    position: relative;
+    top: -15px;
+    width: 10px;
+    background-color: transparent;
+    height: 15px;
+    color: red;
+}
+
+.simple {
+    background-color: #F8EDF0;
+    ;
+}
+
+.simple-img img {
+    position: relative;
+    top: 50px;
+    border-radius: 33px;
+}
+
+.simple-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.simple-text p:nth-child(1) {
+    width: 621px;
+    height: 52px;
+    font-weight: 500;
+    font-size: 44.2px;
+    line-height: 52px;
+    padding-top: 90px;
+    padding-bottom: 20px;
+}
+.simple-text p:nth-child(2){
+    
+width: 607px;
+height: 60px;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #0F0101;
+
+opacity: 0.7;
+}
+.imgvstext{
+    gap: 10px;
+    padding-top: 20px;
+}
+.imgvstext p{
+    
+font-family: 'Roboto';
 font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 36px;
+font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+color: #000000;
+opacity: 1;
+
+}
+.imgvstext button{
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+}
+.simple-text .imgs {
+display: flex;
+align-items: center;
+padding-top: 40px;
+}
+.center{
+    height: 550px;
+    text-align: center;
+    
+}
+.center p{
+    padding-top: 190px;
+    margin-left: 210px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 44px;
+line-height: 52px;
+width: 522px;
+height: 123px;
+color: #000000;
+padding-bottom: 30px;
+
+}
+.center form input{
+    width: 637px;
+height: 74px;
+left: 433px;
+top: 5134px;
+
+background: #FAFAFA;
+border-radius: 5px;
+text-align: center;
+border: none;
+}
+.center form button{
+   height: 74px; 
+}
+footer{
+    background-color: black;
+    height: 400px;
+    padding: 70px;
+}
+.logo{
+    padding-top: 70px;
+}
+ul{
+    list-style: none;
+    gap: 10px;
+} 
+ul li a{
+    color: white;
+    opacity: 0.8;
+}
+ul li a:hover{
+    opacity: 1;
+}
+.footer-list ul li:nth-child(1) ul li:nth-child(1){
+    
+width: 207px;
+height: 47px;
+color: white;
+opacity: 0.7;
+}
+.footer-list ul li:nth-child(1) ul li:nth-child(2){
+    color: white;
+}
+.footer-list ul li:nth-child(1) ul li:nth-child(3){
+    gap: 10px;
+}
+.pather{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.finput{
+    width: 388px;
+height: 55px;
+background-color:transparent;
+
+opacity: 0.5;
+border: 2px solid #D64374;
+border-radius: 5px;
+padding-left: 100px;
+
+}
+.fsubmit{
+    width: 125px;
+    position: absolute;
+    top: 21px;
+    height: 55px;
+    left: 1000px;
+}
+.fform{
+    padding-top: 10px;
+}
+.group{
+    padding-top: 15px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
 }
