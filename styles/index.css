@@ -5,10 +5,12 @@
     padding: 0px auto;
     width: 1125px;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
+
 p {
     font-family: 'Roboto', sans-serif;
 
@@ -28,8 +30,7 @@ b {
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
-    color: #0F0101;
-    opacity: 0.6;
+    
 
 }
 
@@ -227,7 +228,6 @@ button {
     font-size: 44.2px;
     line-height: 49px;
 
-    color: #150101;
 }
 
 .brown-container .text button {
@@ -262,6 +262,7 @@ button {
     position: relative;
     top: -180px;
 }
+
 .mainh2 {
     display: flex;
     justify-content: center;
@@ -277,34 +278,85 @@ button {
     line-height: 61px;
     color: #150101;
 }
-.product-header ul{
-display: flex;
-gap: 40px;
-list-style: none;
-justify-content: center;
-margin-bottom: 50px;
+.product{
+    position: relative;
 }
-.product-header ul li{
-    
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 21px;
-color: #000000;
+.product-header{
+    position: sticky;
+    top: 0px;
 }
-.product-header ul li:hover{
-    border-bottom:  3px solid #D64374;
-    
+.product-header ul {
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+    margin-bottom: 50px;
+    z-index: 20;
 }
-.sectionsecond{
+
+.product-header ul li {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.product-header ul li:hover {
+    border-bottom: 3px solid #D64374;
+
+}
+
+.sectionsecond {
     padding-top: 30px;
 }
-.sectionsecond .img{
+
+.sectionsecond .img {
     position: static;
 }
-.sectionsecond .brown-container .text button p{
+
+.sectionsecond .brown-container .text button p {
     color: rgb(255, 255, 255);
-   position: relative;
-   top: -7px;
+    position: relative;
+    top: -7px;
+}
+
+.newprice {
+    position: relative;
+    top: 20px;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+
+}
+
+.oldprice {
+    position: relative;
+    top: 25px;
+    left: -45px;
+    text-decoration: line-through;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    
+    opacity: 0.6;
+}
+.nameaic{
+width: 152px;
+height: 36px;
+font-family: 'Hind Madurai';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 36px;
 }
