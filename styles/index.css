@@ -585,3 +585,7 @@ padding-left: 100px;
     display: flex;
     align-items: center;
 }
+form{
+    display: flex;
+    align-items: center;
+}
