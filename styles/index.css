@@ -569,6 +569,9 @@ border-radius: 5px;
 padding-left: 100px;
 
 }
+.product-header ul li a{
+    color: #000;
+}
 .fsubmit{
     width: 125px;
     position: absolute;
